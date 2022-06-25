@@ -1,13 +1,28 @@
 ---
-
+import '@fontsource/inter'
+import '../styles/style.css'
+import Main from '../layouts/Main.astro';
+import Header from '../components/header.astro';
+import About from '../components/about.astro';
+import Skills from '../components/skills.astro';
+import Projects from '../components/projects.astro';
 ---
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>Андреев Данила</title>
+</head>
+
+<body>
+	<Main>
+		<Header id='header' />
+		<About id='about' />
+		<Projects id='projects' />
+		<Skills id='skills' />
+	</Main>
+</body>
+
 </html>

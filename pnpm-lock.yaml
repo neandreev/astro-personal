@@ -3,12 +3,14 @@ lockfileVersion: 5.4
 specifiers:
   '@astrojs/svelte': ^0.2.0
   '@astrojs/tailwind': ^0.2.1
+  '@fontsource/inter': ^4.5.11
   astro: ^1.0.0-beta.56
   svelte: ^3.46.4
 
 devDependencies:
   '@astrojs/svelte': 0.2.0_svelte@3.48.0
   '@astrojs/tailwind': 0.2.1
+  '@fontsource/inter': 4.5.11
   astro: 1.0.0-beta.56
   svelte: 3.48.0
 
@@ -401,6 +403,10 @@ packages:
 
   /@emmetio/scanner/1.0.0:
     resolution: {integrity: sha512-8HqW8EVqjnCmWXVpqAOZf+EGESdkR27odcMMMGefgKXtar00SoYNSryGv//TELI4T3QFsECo78p+0lmalk/CFA==}
+    dev: true
+
+  /@fontsource/inter/4.5.11:
+    resolution: {integrity: sha512-toizzQkfXL8YJcG/f8j3EYXYGQe4OxiDEItThSigvHU+cYNDw8HPp3wLYQX745hddsnHqOGCM4exitFSBOU8+w==}
     dev: true
 
   /@jridgewell/gen-mapping/0.1.1:

@@ -1,0 +1,54 @@
+---
+import Project from './project.astro';
+
+const projects = [
+  {
+    name: 'Brain-games',
+    description: 'Набор из пяти command-line игр, завязанных на математике',
+    properties: ['Vanilla JS'],
+    gifUrl: '/images/Brain-games.gif',
+    githubUrl: 'https://github.com/neandreev/Brain-games',
+  },
+  {
+    name: 'Gendiff',
+    description:
+      'CLI-Утилита, позволяющая находить и выводить на экран различия между двумя конфигурационными файлами формата json, yml или ini',
+    properties: ['Vanilla JS', 'Commander', 'Parsers: ini, js-yaml', 'Testing: jest'],
+    gifUrl: '/images/Gendiff.gif',
+    githubUrl: 'https://github.com/neandreev/Gendiff',
+  },
+  {
+    name: 'RSS-Agregator',
+    description:
+      'Агрегатор RSS фидов, производящий парсинг RSS по приведённым вами ссылкам и выводящий в простой форме посты',
+    properties: ['Vanilla JS', 'Webpack', 'Validation: yup', 'Internationalization: i18next'],
+    liveDemonstrationUrl: 'https://rss.neandreev.ru',
+    gifUrl: '/images/RSS-Agregator.gif',
+    githubUrl: 'https://github.com/neandreev/RSS-Agregator',
+  },
+  {
+    name: 'Personal-site',
+    description:
+      'Личный сайт-визитка, содержащий в себе мои контакты, немного информации обо мне и выполненные мною проекты',
+    properties: ['NextJS', 'React', 'Styling: Tailwind CSS'],
+    liveDemonstrationUrl: 'https://neandreev.ru',
+    githubUrl: 'https://github.com/neandreev/personal-nextjs-site',
+  },
+  {
+    name: 'Slack-chat',
+    description:
+      'Real-time чат с авторизацией/аутентификацией, возможностью добавлять/изменять/удалять каналы',
+    properties: ['React w/Hooks', 'Redux-Toolkit', 'Routes: react-router', 'Styling: react-bootstrap', 'Validation: yup', 'Forms: Formik', 'Internationalization: i18next'],
+    liveDemonstrationUrl: 'https://neandreev-chat.herokuapp.com/',
+    githubUrl: 'https://github.com/neandreev/slack-chat',
+  },
+];
+---
+
+<div class='p-4 md:p-8'>
+  <span>Проекты:</span>
+  <div class="flex flex-wrap">
+    {projects.map((project) =>
+    <Project project={project} />)}
+  </div>
+</div>

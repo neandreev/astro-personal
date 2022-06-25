@@ -1,0 +1,23 @@
+---
+import SkillsList from './skillsList.astro';
+
+const presenthardskills = ['JavaScript ES6', 'HTML5 / CSS3', 'React w/Hooks', 'Redux-Toolkit', 'Linux / WSL', 'Basics: PHP, Docker'];
+const futurehardskills = ['TypeScript', 'Node.js', 'SQL / Relational Databases'];
+const softskills = ['Critical Thinking', 'Lifelong Learner', 'Self-Reflection', 'Nonviolent Communication'];
+---
+
+<div class='p-4 md:p-8'>
+  <span>Скиллы:</span>
+  <div class="flex mt-3 space-y-2 md:space-y-0 flex-col md:flex-row justify-between">
+    <div class="bg-gray-100 mx-1 p-2 md:w-10/12 border rounded shadow-sm">
+      <span class="pl-5">Hardskills:</span>
+      <div class="flex justify-between h-full">
+        <SkillsList text='In use:' points={presenthardskills} />
+        <SkillsList text='In progress:' points={futurehardskills} />
+      </div>
+    </div>
+    <div class="bg-gray-100 md:mt-0 mx-1 p-2 md:w-10/12 border rounded shadow-sm">
+      <SkillsList text='Softskills::' points={softskills} />
+    </div>
+  </div>
+</div>
