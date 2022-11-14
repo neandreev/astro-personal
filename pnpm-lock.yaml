@@ -2,12 +2,12 @@ lockfileVersion: 5.4
 
 specifiers:
   '@astrojs/tailwind': ^0.2.1
-  '@astrojs/vercel': ^0.2.4
+  '@astrojs/vercel': ^0.2.6
   '@fontsource/inter': ^4.5.11
   astro: ^1.6.7
 
 dependencies:
-  '@astrojs/vercel': 0.2.4
+  '@astrojs/vercel': 0.2.6
 
 devDependencies:
   '@astrojs/tailwind': 0.2.1
@@ -125,8 +125,8 @@ packages:
       - supports-color
     dev: true
 
-  /@astrojs/vercel/0.2.4:
-    resolution: {integrity: sha512-j5dRKN9QGNgGXwWVGs7PEcPpfNV7tEGlU3dGvhnthqMuIKIxack/4zSqSwZAAigm6J8uYu9+2Vt1ZQdLNMsW7Q==}
+  /@astrojs/vercel/0.2.6:
+    resolution: {integrity: sha512-Hj2zN04IL2bTVSc7q0X7lyQzLkYd3k7K+dsieYkAv060u89SV1QneT5zTvFZofZ12lBXYG9Rlkb5NEbB7t3BLQ==}
     dependencies:
       '@astrojs/webapi': 0.12.0
       '@vercel/nft': 0.18.2
