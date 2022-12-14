@@ -5,13 +5,13 @@ const hardskills = ['JavaScript ES6', 'TypeScript', 'HTML5 / CSS3', 'React w/Hoo
 const softskills = ['Critical Thinking', 'Lifelong Learner', 'Self-Reflection', 'Nonviolent Communication'];
 ---
 
-<div class='p-4 md:p-8'>
+<div class='p-4 md:p-8 dark:border-zinc-700'>
   <span>Скиллы:</span>
   <div class="flex mt-3 space-y-2 md:space-y-0 flex-col md:flex-row justify-between">
-    <div class="bg-gray-100 md:mt-0 mx-1 p-2 md:w-10/12 border rounded shadow-sm">
-        <SkillsList text='Hardskills:' points={hardskills} />
+    <div class="bg-gray-100 dark:border-zinc-700 dark:bg-zinc-800 md:mt-0 mx-1 p-2 md:w-10/12 border rounded shadow-sm">
+      <SkillsList text='Hardskills:' points={hardskills} />
     </div>
-    <div class="bg-gray-100 md:mt-0 mx-1 p-2 md:w-10/12 border rounded shadow-sm">
+    <div class="bg-gray-100 dark:border-zinc-700 dark:bg-zinc-800 md:mt-0 mx-1 p-2 md:w-10/12 border rounded shadow-sm">
       <SkillsList text='Softskills:' points={softskills} />
     </div>
   </div>
