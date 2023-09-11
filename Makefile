@@ -1,7 +1,7 @@
 install:
 	pnpm install
 
-develop:
+dev develop:
 	pnpm dev
 
 build:
