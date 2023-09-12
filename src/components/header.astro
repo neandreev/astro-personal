@@ -1,22 +1,27 @@
 ---
-import { Image } from 'astro:assets';
-import profilePic from '../images/photo.webp';
-import Link from './link.astro';
+import { Image } from "astro:assets";
+import profilePic from "../images/photo.webp";
+import Link from "./link.astro";
 ---
 
-<div class="flex flex-col items-center md:items-start justify-center leading-tight p-4 md:p-8">
+<div
+  class="flex flex-col h-screen snap-start justify-center items-center leading-tight p-4 md:p-8"
+>
   <div class="flex justify-center">
-    <div class="hidden relative white:md:bg-gray-100 rounded-full border dark:border-zinc-700 border-r-0 rounded-r-none h-full md:block w-32">
-      <Image class="rounded-full border border-l-0 dark:border-zinc-700" src={profilePic} alt="photo" />
+    <div
+      class="hidden relative white:md:bg-gray-100 rounded-full border dark:border-zinc-700 border-r-0 rounded-r-none h-full md:block w-32"
+    >
+      <Image
+        class="rounded-full border border-l-0 dark:border-zinc-700"
+        src={profilePic}
+        alt="photo"
+      />
     </div>
     <div
-      class="md:border md:border-l-0 pr-6 p-3 pt-1 dark:border-zinc-700 md:rounded-full white:md:bg-gray-100 md:rounded-l-none flex flex-col justify-center">
-      <h2 class="text-5xl text-center md:text-left">
-        Андреев Данила
-      </h2>
-      <h2 class="text-3xl text-center md:text-left">
-        Фронтенд-разработчик
-      </h2>
+      class="md:border md:border-l-0 pr-6 p-3 pt-1 dark:border-zinc-700 md:rounded-full white:md:bg-gray-100 md:rounded-l-none flex flex-col justify-center"
+    >
+      <h2 class="text-5xl text-center md:text-left">Андреев Данила</h2>
+      <h2 class="text-3xl text-center md:text-left">Фронтенд-разработчик</h2>
     </div>
   </div>
   <div class="text-xl mt-3 text-center md:text-left font-light">
