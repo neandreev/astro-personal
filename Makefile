@@ -12,4 +12,4 @@ start:
 
 bstart:
 	pnpm build
-	pnpm start
+	pnpm preview
