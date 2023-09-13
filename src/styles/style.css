@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Oswald';
-  src: url('/fonts/Oswald.woff2') format('woff2-variations');
+  src: url('/fonts/Oswald.woff2') format('woff2');
   font-display: swap;
 }
 
@@ -13,5 +13,3 @@
   descent-override: 36%;
   line-gap-override: normal;
 }
-
-body { font-stretch: condensed; font-weight: 500;}
