@@ -4,6 +4,9 @@ install:
 dev develop:
 	pnpm dev
 
+devhost:
+	pnpm dev --host
+
 build:
 	pnpm build
 
